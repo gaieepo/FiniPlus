@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+
+<fx:root type="HBox" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fx:id="type" fill="DODGERBLUE" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="description" text="Label" />
+   </children>
+</fx:root>
