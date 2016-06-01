@@ -1,5 +1,6 @@
 package main.model;
 
+import javafx.beans.Observable;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -36,10 +37,10 @@ public class TaskCell extends HBox {
             e.printStackTrace();
         }
 
-        type.setFill(Color.AZURE);
+        type.setFill(Color.BLUEVIOLET);
     }
 
-    public void setDescription(String description) {
-        this.description.setText(description);
+    public Label getDescription() {
+        return description;
     }
 }

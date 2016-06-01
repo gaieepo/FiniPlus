@@ -28,15 +28,10 @@ public class MainController {
     @FXML
     private Button elohim;
 
-    private int taskIndex = 6;
+    private int taskIndex = 0;
 
     public MainController() {
         taskList.add(new Task("Task 1"));
-        taskList.add(new Task("Task 2"));
-        taskList.add(new Task("Task 3"));
-        taskList.add(new Task("Task 4"));
-        taskList.add(new Task("Task 5"));
-
     }
 
     @FXML
@@ -59,7 +54,7 @@ public class MainController {
         elohim.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                taskList.add(new Task("Task " + taskIndex));
+                taskList.get(0).setDescription((100 - taskIndex) + "");
                 taskIndex++;
             }
         });

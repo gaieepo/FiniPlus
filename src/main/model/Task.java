@@ -14,25 +14,25 @@ public class Task {
 
     private StringProperty description;
 
-//    private ObjectProperty<LocalDateTime> startDateTime;
-//
-//    private ObjectProperty<LocalDateTime> endDateTime;
-//
-//    private IntegerProperty priority;
-//
-//    private BooleanProperty isRecur;
-//
-//    private BooleanProperty isCompleted;
-//
-//    private ObjectProperty<Period> interval;
-//
-//    private ObjectProperty<LocalDateTime> recursUntil;
-//
-//    private StringProperty id;
-//
-//    private ObjectProperty<Constant.TaskType> type;
-//
-//    private List<StringProperty> tags;
+    private ObjectProperty<LocalDateTime> startDateTime;
+
+    private ObjectProperty<LocalDateTime> endDateTime;
+
+    private IntegerProperty priority;
+
+    private BooleanProperty isRecur;
+
+    private BooleanProperty isCompleted;
+
+    private ObjectProperty<Period> interval;
+
+    private ObjectProperty<LocalDateTime> recursUntil;
+
+    private StringProperty id;
+
+    private ObjectProperty<Constant.TaskType> type;
+
+    private List<StringProperty> tags;
 
     public Task(String description) {
         this.description = new SimpleStringProperty(description);
@@ -46,19 +46,23 @@ public class Task {
         this.description.set(description);
     }
 
-//    public LocalDateTime getStartDateTime() {
-//        return startDateTime.get();
-//    }
-//
-//    public void setStartDateTime(LocalDateTime startDateTime) {
-//        this.startDateTime.set(startDateTime);
-//    }
-//
-//    public LocalDateTime getEndDateTime() {
-//        return endDateTime.get();
-//    }
-//
-//    public void setEndDateTime(LocalDateTime endDateTime) {
-//        this.endDateTime.set(endDateTime);
-//    }
+    public StringProperty descriptionProperty() {
+        return description;
+    }
+
+    public LocalDateTime getStartDateTime() {
+        return startDateTime.get();
+    }
+
+    public void setStartDateTime(LocalDateTime startDateTime) {
+        this.startDateTime.set(startDateTime);
+    }
+
+    public LocalDateTime getEndDateTime() {
+        return endDateTime.get();
+    }
+
+    public void setEndDateTime(LocalDateTime endDateTime) {
+        this.endDateTime.set(endDateTime);
+    }
 }

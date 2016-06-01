@@ -12,12 +12,10 @@ public class TaskCellAdapter extends ListCell<Task> {
     protected void updateItem(Task item, boolean empty) {
         super.updateItem(item, empty);
         if (item != null) {
-            setText(null);
             TaskCell taskCell = new TaskCell();
-            taskCell.setDescription(item.getDescription());
+            taskCell.getDescription().textProperty().bind(item.descriptionProperty());
             setGraphic(taskCell);
         } else {
-            setText(null);
             setGraphic(null);
         }
     }
