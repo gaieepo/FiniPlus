@@ -32,6 +32,7 @@ public class TaskCell extends HBox {
         try {
             fxmlLoader.setController(this);
             fxmlLoader.setRoot(this);
+
             fxmlLoader.load();
         } catch (IOException e) {
             e.printStackTrace();
