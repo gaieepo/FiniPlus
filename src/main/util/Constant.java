@@ -7,4 +7,8 @@ public class Constant {
     public static enum TaskType {
         FLOATING, EVENT, DEADLINE, EVENT_START
     }
+
+    public static enum TimeScale {
+        DAY, WEEK, MONTH, YEAR
+    }
 }

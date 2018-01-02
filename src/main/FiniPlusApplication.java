@@ -13,7 +13,7 @@ public class FiniPlusApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("res/layout/main_layout.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("res/layout/Main.fxml"));
         try {
             Parent root = loader.load();
             Scene scene = new Scene(root, 600, 400, Color.BLACK);

@@ -1,12 +1,7 @@
-package main.model;
+package main.views;
 
-import javafx.beans.Observable;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
@@ -27,7 +22,7 @@ public class TaskCell extends HBox {
 
     public TaskCell() {
         super();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../res/layout/cell_layout.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../res/layout/TaskCell.fxml"));
 
         try {
             fxmlLoader.setController(this);

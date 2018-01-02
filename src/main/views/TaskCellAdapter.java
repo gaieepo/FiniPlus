@@ -1,8 +1,8 @@
-package main.util;
+package main.views;
 
 import javafx.scene.control.ListCell;
-import main.model.Task;
-import main.model.TaskCell;
+import main.models.Task;
+import main.views.TaskCell;
 
 /**
  * Created by gaieepo on 30/5/2016.
