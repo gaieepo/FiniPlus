@@ -1,16 +1,12 @@
-package main.controllers;
+package main.java.com.gaieepo.finiplus.controllers;
 
-import com.joestelmach.natty.DateGroup;
-import com.joestelmach.natty.Parser;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import main.models.Context;
-import main.models.Task;
-
-import java.util.List;
+import main.java.com.gaieepo.finiplus.models.Context;
+import main.java.com.gaieepo.finiplus.models.Task;
 
 public class CommandController {
     @FXML

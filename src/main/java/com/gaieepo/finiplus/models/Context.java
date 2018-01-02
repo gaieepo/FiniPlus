@@ -1,4 +1,4 @@
-package main.models;
+package main.java.com.gaieepo.finiplus.models;
 
 import com.joestelmach.natty.*;
 import javafx.collections.FXCollections;

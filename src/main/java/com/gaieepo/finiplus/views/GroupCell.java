@@ -1,4 +1,4 @@
-package main.views;
+package main.java.com.gaieepo.finiplus.views;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -19,7 +19,7 @@ public class GroupCell extends HBox {
 
     public GroupCell() {
         super();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../res/layout/GroupCell.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../resources/layout/GroupCell.fxml"));
 
         try {
             fxmlLoader.setController(this);

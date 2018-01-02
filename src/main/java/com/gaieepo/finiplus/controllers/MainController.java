@@ -1,4 +1,4 @@
-package main.controllers;
+package main.java.com.gaieepo.finiplus.controllers;
 
 import javafx.fxml.FXML;
 

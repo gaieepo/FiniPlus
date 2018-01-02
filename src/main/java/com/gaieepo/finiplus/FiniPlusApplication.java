@@ -1,4 +1,4 @@
-package main;
+package main.java.com.gaieepo.finiplus;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

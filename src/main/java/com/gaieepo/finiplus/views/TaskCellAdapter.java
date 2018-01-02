@@ -1,8 +1,7 @@
-package main.views;
+package main.java.com.gaieepo.finiplus.views;
 
 import javafx.scene.control.ListCell;
-import main.models.Task;
-import main.views.TaskCell;
+import main.java.com.gaieepo.finiplus.models.Task;
 
 /**
  * Created by gaieepo on 30/5/2016.
