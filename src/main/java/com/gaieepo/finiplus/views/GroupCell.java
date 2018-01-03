@@ -19,7 +19,7 @@ public class GroupCell extends HBox {
 
     public GroupCell() {
         super();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/layout/GroupCell.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../layout/GroupCell.fxml"));
 
         try {
             fxmlLoader.setController(this);

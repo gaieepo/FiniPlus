@@ -22,7 +22,7 @@ public class TaskCell extends HBox {
 
     public TaskCell() {
         super();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/layout/TaskCell.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../layout/TaskCell.fxml"));
 
         try {
             fxmlLoader.setController(this);
