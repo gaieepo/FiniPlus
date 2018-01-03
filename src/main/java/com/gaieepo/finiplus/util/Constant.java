@@ -1,4 +1,4 @@
-package main.java.com.gaieepo.finiplus.util;
+package com.gaieepo.finiplus.util;
 
 /**
  * Created by gaieepo on 30/5/2016.

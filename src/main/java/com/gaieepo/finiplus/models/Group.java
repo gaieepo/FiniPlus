@@ -1,4 +1,4 @@
-package main.java.com.gaieepo.finiplus.models;
+package com.gaieepo.finiplus.models;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;

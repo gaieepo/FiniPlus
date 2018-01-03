@@ -1,12 +1,12 @@
-package main.java.com.gaieepo.finiplus.controllers;
+package com.gaieepo.finiplus.controllers;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import main.java.com.gaieepo.finiplus.models.Context;
-import main.java.com.gaieepo.finiplus.models.Task;
+import com.gaieepo.finiplus.models.Context;
+import com.gaieepo.finiplus.models.Task;
 
 public class CommandController {
     @FXML

@@ -1,4 +1,4 @@
-package main.java.com.gaieepo.finiplus.controllers;
+package com.gaieepo.finiplus.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;

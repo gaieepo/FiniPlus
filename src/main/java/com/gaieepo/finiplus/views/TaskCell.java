@@ -1,4 +1,4 @@
-package main.java.com.gaieepo.finiplus.views;
+package com.gaieepo.finiplus.views;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -22,7 +22,7 @@ public class TaskCell extends HBox {
 
     public TaskCell() {
         super();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../resources/layout/TaskCell.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/layout/TaskCell.fxml"));
 
         try {
             fxmlLoader.setController(this);

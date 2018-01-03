@@ -1,4 +1,4 @@
-package main.java.com.gaieepo.finiplus;
+package com.gaieepo.finiplus;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,7 +13,7 @@ public class FiniPlusApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("res/layout/Main.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/layout/Main.fxml"));
         try {
             Parent root = loader.load();
             Scene scene = new Scene(root, 600, 400, Color.BLACK);
